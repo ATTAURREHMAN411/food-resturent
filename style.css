@@ -76,68 +76,73 @@ transition: 0.2s ease-in-out;
     line-height: 1.2;
     font-weight: 400;
   }
-  @media (max-width: 1000px) {
-    .navigation{
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-    .logo-container img, .feature img{
-      height: 110px;
-    }
+   @media (max-width: 700px) {
+      .tag{
+        font-size: 20px;
+      }
+      .hero-contact, .features-section {
+        margin-left: 10px;
+      }
+      .hero-contact p{
+        font-size: 15px;
+      }
+      .hero-contact button{
+        font-size: 15px;
+      }
+      .hero {
+        flex-direction: column;
+      }
+      .hero-image{
+        text-align: center;
+
+      }
+      .hero-image img {
+        width: 80%;
+      
+      }
+  
+    } 
+
+
+
+
     .fas fa-bars{
       height: 40px;
     }
-    .hero {
-      flex-direction: column;
-    }
-    .hero-image {
-      height: 800px;
-      width: 800px;
-     display: flex;
-     justify-content: center;
-    }
     .tag{
-      font-size: 30px;
+      font-size: 20px;
     }
-    .hero-image img {
-      width: 80%;
-    }
+  
     .hero-contact {
       gap: 10px;
       padding: 10px;
     }
     .hero-contact h1 {
-      font-size: 40px;
-    }
-    .hero-contact p{
-      font-size: 25px;
-    }
-  .explore_btn{
-    font-size: 30px;
-  }
-  .features-section .features img {
-    width: 100px;
-  }
-    .features-section  {
-      flex-direction: column;
-    }
-    .tag1{
-      font-size: 35px;
-    }
-    .feature{
       font-size: 30px;
     }
+    .hero-contact p{
+      font-size: 20px;
+    }
+  .explore_btn{
+    font-size: 20px;
   }
+    .tag1{
+      font-size: 25px;
+    }
+    .feature{
+      font-size: 20px;
+    padding-top: 10px;
+    }
+   */
   /* section */
 
   .features-section {
     margin-top: 100px;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
     margin-bottom: 50px;
     padding: 20px;
     transition: 0.2s ease-in-out;
+    display: flex;
+    flex-direction: row;
   }
  
   
